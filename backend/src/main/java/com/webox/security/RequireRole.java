@@ -1,0 +1,13 @@
+package com.webox.security;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/** RBAC guard on a controller class or a single handler method. */
+@Target({ElementType.TYPE, ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RequireRole {
+    String[] value();
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Dish image unavailable">
+  <rect width="400" height="300" fill="#e8f0ea"/>
+  <circle cx="200" cy="132" r="62" fill="none" stroke="#a9c1b3" stroke-width="7"/>
+  <circle cx="200" cy="132" r="42" fill="none" stroke="#c8d9cf" stroke-width="5"/>
+  <path d="M96 224h208" stroke="#a9c1b3" stroke-width="7" stroke-linecap="round"/>
+  <text x="200" y="264" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif"
+        font-size="19" font-weight="600" fill="#5f7c6c">Image unavailable</text>
+</svg>
